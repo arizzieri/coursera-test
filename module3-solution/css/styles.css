@@ -1,0 +1,56 @@
+/* Stylesheet for Module 3 Assignment */
+/* Author: Andrea Rizzieri */
+
+/* 
+	Breakpoints used:
+	xs - Mobile display
+	sm - Tablet display
+	md - Desktop display
+*/
+
+/** HEADER **/
+
+.navbar {
+  background-color: #ccc;
+  border:1px solid black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+a.navbar-brand:link, a.navbar-brand:visited{
+	font-size: 2em;
+	color: black;
+}
+  
+nav li a {
+	font-size: 1.3em;
+}
+
+nav li:nth-child(1),nav li:nth-child(2) {
+	border-bottom: 1px solid black;
+}
+
+nav li:hover {
+	background-color: #ccf;
+}
+
+/* Sections (content) */
+
+.row {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 2em;
+}
+div h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#chicken {
+	background-color: #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
